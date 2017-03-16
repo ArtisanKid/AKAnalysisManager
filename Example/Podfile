@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AKAnalysisManager_Example' do
+  pod 'AKAnalysisManager', :path => '../'
+
+  target 'AKAnalysisManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
