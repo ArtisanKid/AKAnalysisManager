@@ -1,0 +1,6 @@
+framework module AKAnalysisManager {
+  umbrella header "AKAnalysisManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

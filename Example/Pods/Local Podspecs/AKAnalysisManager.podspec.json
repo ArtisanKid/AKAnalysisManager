@@ -1,0 +1,32 @@
+{
+  "name": "AKAnalysisManager",
+  "version": "0.1.0",
+  "summary": "A short description of AKAnalysisManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Freud/AKAnalysisManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Freud": "lixiangyujiayou@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Freud/AKAnalysisManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AKAnalysisManager/Classes/**/*",
+  "libraries": "z",
+  "dependencies": {
+    "TalkingData-AppAnalytics": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-l\"TalkingData\"",
+    "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/TalkingData-AppAnalytics/**"
+  }
+}
