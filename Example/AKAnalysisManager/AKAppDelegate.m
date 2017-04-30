@@ -7,6 +7,7 @@
 //
 
 #import "AKAppDelegate.h"
+#import <AKAnalysisManager/AKAnalysisManager.h>
 
 @implementation AKAppDelegate
 
