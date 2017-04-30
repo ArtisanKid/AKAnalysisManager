@@ -1,1 +1,0 @@
-TalkingData App Analytics SDK for iOS.
